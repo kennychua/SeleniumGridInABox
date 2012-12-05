@@ -22,13 +22,14 @@ __I will keep the components up to date and repackage once they are tested and k
 How do I set up Selenium Grid In A Box?
 ---------------------------------------
 1. Download the latest Selenium As A Grid pack as a zip from [here](https://github.com/kennychua/SeleniumGridInABox/downloads)
+
 2. Unpack to your desired install location. In this example, we want to install to
 	`C:\SeleniumGridInABox`.
-The folder structure should look like this
-XXXIMAGE
+The folder structure should look like this.
 ![alt text](http://kennychua.net/wp-content/uploads/2012/12/sgib_unpacked_folder_structure.png "Unpacked folder structure")
+
 3. Set the following environment variables to configure _Selenium Grid In A Box_. 
-	- Note that these variables tell _Selenium Grid In A Box_ the included Java version as well as the included browsers. This will be handy if you want to upgrade individual components. See later 'How Do I' section in documentation
+	- Note that these variables tell _Selenium Grid In A Box_ the included Java version as well as the included browsers. This will be handy if you want to upgrade individual components. See later 'How Do I' section in documentation.
 
 <table>
   <tr>
@@ -52,7 +53,8 @@ XXXIMAGE
     <td>C:\SeleniumGridInABox\browsers\Firefox16.0.2Portable\App\Firefox</td>
   </tr>
 </table>
--xxx screenshot of system properties
+![alt text](http://kennychua.net/wp-content/uploads/2012/12/sgib_environment_variables.png "Example environment variables")
+
 4. Run the following scripts in install each component as a Windows Service
 	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\SeleniumHub\InstallSeleniumHubService-NT.bat`
 	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\GoogleChrome\GoogleChromeSeleniumNodeService.bat`
