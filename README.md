@@ -76,7 +76,7 @@ private static WebDriver initGridDriver(final String gridUrl) throws MalformedUR
 
 How Do I Update …
 ------------------------------------------------------------
-I'll strive to keep all the components up-to-date with the versions known and tested to work with each other, but if you decide to change things up, here's how…ß
+I'll strive to keep all the components up-to-date with the versions known and tested to work with each other, but if you decide to change things up, here's how…
 #### Java
 Simply point the `SEL_GRID_IN_A_BOX_JAVA_HOME` environment variable to your desired JAVA_HOME
 #### Selenium Jar
