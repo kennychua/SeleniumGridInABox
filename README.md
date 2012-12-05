@@ -57,11 +57,12 @@ The folder structure should look like this.
 	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\GoogleChrome\InstallGoogleChromeSeleniumNodeService-NT.bat`
 	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\MozillaFirefox\InstallFirefoxSeleniumNodeService-NT.bat`
 	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\InternetExplorer\InstallInternetExplorerSeleniumNodeService-NT.bat`
-5. XXX services.msc screenshot. Your Selenium Grid is now installed! Start the all the Selenium Grid In A Box services and you've got a Grid running.
-
+5. Your Selenium Grid is now installed! Start the all the Selenium Grid In A Box services and you've got a Grid running.
+![alt text](http://kennychua.net/wp-content/uploads/2012/12/sgib_services.png "Selenium In A Box services")
 
 How do I use Selenium Grid In A Box in my Selenium tests?
 ------------------------------------------------------------
+XXX
 
 How Do I Update …
 ------------------------------------------------------------
@@ -79,6 +80,6 @@ Simply point the `SEL_GRID_IN_A_BOX_FFOX_PATH` environment variable to the path 
 
 Notes
 ------
--browsers do up update automatically. This is intentional to preserve the consistency of tests
-- how to uninstall service?
-- how to view logs
+- XXXbrowsers do up update automatically. This is intentional to preserve the consistency of tests
+- XXXhow to uninstall service?
+- XXXhow to view logs
