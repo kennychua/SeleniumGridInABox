@@ -19,14 +19,15 @@ It includes :
 
 __I will keep the components up to date and repackage once they are tested and known to be working together__
 
-How do I use Selenium Grid In A Box?
+How do I set up Selenium Grid In A Box?
 ---------------------------------------
 1. Download the latest Selenium As A Grid pack as a zip from [here](https://github.com/kennychua/SeleniumGridInABox/downloads)
 2. Unpack to your desired install location. In this example, we want to install to
 	`C:\SeleniumGridInABox`.
 The folder structure should look like this
 XXXIMAGE
-3. Set the following environment variables to configure _Selenium Grid In A Box_
+3. Set the following environment variables to configure _Selenium Grid In A Box_. 
+	- Note that these variables tell _Selenium Grid In A Box_ the included Java version as well as the included browsers. This will be handy if you want to upgrade individual components. See later 'How Do I' section in documentation
 <table>
   <tr>
     <th>Environment Variable</th>
@@ -40,22 +41,29 @@ XXXIMAGE
   </tr>
   <tr>
     <td>SEL_GRID_IN_A_BOX_JAVA_HOME</td>
-    <td>C:\Users\VBox\Desktop\SeleniumGridInABox\java\jre7</td>
-    <td>XXX</td>
+    <td>C:\SeleniumGridInABox\java\jre7</td>
+    <td>Point to the JAVA_HOME of the Java you would like to use</td>
   </tr>
   <tr>
     <td>SEL_GRID_IN_A_BOX_CHROME_PATH</td>
-    <td>C:\Users\VBox\Desktop\SeleniumGridInABox\browsers\GoogleChrome23Portable\App\Chrome-bin</td>
-    <td>XXX</td>
+    <td>C:\SeleniumGridInABox\browsers\GoogleChrome23Portable\App\Chrome-bin</td>
+    <td>Point to the path containing Chrome executable you would like to use</td>
   </tr>
   <tr>
     <td>SEL_GRID_IN_A_BOX_FFOX_PATH</td>
-    <td>C:\Users\VBox\Desktop\SeleniumGridInABox\browsers\Firefox16.0.2Portable\App\Firefox</td>
-    <td>XXX</td>
+    <td>C:\SeleniumGridInABox\browsers\Firefox16.0.2Portable\App\Firefox</td>
+    <td>Point to the path containing Firefox executable you would like to use</td>
   </tr>
 </table>
 -xxx screenshot of system properties
-4. run/install scripts
+4. Run the following scripts in install each component as a Windows Service
+	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\SeleniumHub\InstallSeleniumHubService-NT.bat`
+	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\GoogleChrome\GoogleChromeSeleniumNodeService.bat`
+	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\MozillaFirefox\InstallFirefoxSeleniumNodeService-NT.bat`
+	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\InternetExplorer\InstallInternetExplorerSeleniumNodeService-NT.bat`
+
+How do I use Selenium Grid In A Box in my Selenium tests?
+------------------------------------------------------------
 
 How Do I …
 - update Java
@@ -65,4 +73,5 @@ How Do I …
 
 Notes
 -browsers do up update automatically. This is intentional to preserve the consistency of tests
-
+- how to uninstall service?
+- how to view logs
