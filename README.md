@@ -62,7 +62,8 @@ The folder structure should look like this.
 
 How do I use Selenium Grid In A Box in my Selenium tests?
 ------------------------------------------------------------
-When obtaining a Webdriver, specify your DesiredCapability to select one of the browsers on the Grid 
+When obtaining a Webdriver, specify your DesiredCapability to select one of the browsers on the Grid.
+Example Java JUnit snippet:
 ```
 private static WebDriver initGridDriver(final String gridUrl) throws MalformedURLException {
         final DesiredCapabilities capabilities = new DesiredCapabilities();
