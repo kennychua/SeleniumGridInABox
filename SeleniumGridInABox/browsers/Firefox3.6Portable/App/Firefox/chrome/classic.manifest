@@ -1,0 +1,10 @@
+skin browser classic/1.0 jar:classic.jar!/skin/classic/browser/ os=WINNT osversion<6
+skin communicator classic/1.0 jar:classic.jar!/skin/classic/communicator/
+skin browser classic/1.0 jar:classic.jar!/skin/classic/aero/browser/ os=WINNT osversion>=6
+skin global classic/1.0 jar:classic.jar!/skin/classic/global/ os=WINNT osversion<6
+skin global classic/1.0 jar:classic.jar!/skin/classic/global/ os!=WINNT
+skin mozapps classic/1.0 jar:classic.jar!/skin/classic/aero/mozapps/ os=WINNT osversion>=6
+skin browser classic/1.0 jar:classic.jar!/skin/classic/browser/ os!=WINNT
+skin mozapps classic/1.0 jar:classic.jar!/skin/classic/mozapps/ os!=WINNT
+skin mozapps classic/1.0 jar:classic.jar!/skin/classic/mozapps/ os=WINNT osversion<6
+skin global classic/1.0 jar:classic.jar!/skin/classic/aero/global/ os=WINNT osversion>=6

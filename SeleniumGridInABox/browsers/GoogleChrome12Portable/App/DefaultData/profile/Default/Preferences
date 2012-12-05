@@ -1,0 +1,53 @@
+{
+   "browser": {
+      "check_default_browser": false,
+      "ntp": {
+         "theme_promo_remaining": -2
+      }
+   },
+   "countryid_at_install": 21843,
+   "default_search_provider": {
+      "id": "2",
+      "name": "Google",
+      "prepopulate_id": "1",
+      "search_url": "{google:baseURL}search?{google:RLZ}{google:acceptedSuggestion}{google:originalQueryForSuggestion}sourceid=chrome&ie={inputEncoding}&q={searchTerms}",
+      "suggest_url": "{google:baseSuggestURL}search?client=chrome&hl={language}&q={searchTerms}"
+   },
+   "download": {
+      "directory_upgrade": true,
+      "extensions_to_open": ""
+   },
+   "extensions": {
+      "autoupdate": {
+         "next_check": "12934154159443223"
+      },
+      "chrome_url_overrides": {
+         "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+      }
+   },
+   "ntp": {
+      "alt_logo_end": 1255017600.0,
+      "alt_logo_resource_server": "https://www.google.com/support/chrome/bin/topic/30248/inproduct",
+      "alt_logo_start": 1255017600.0,
+      "pinned_urls": {
+         "af4775052a19379b5cfb577f90adaf0d": {
+            "direction": "ltr",
+            "index": 0,
+            "title": "PortableApps.com - Portable software for USB drives",
+            "url": "http://portableapps.com/"
+         }
+      },
+      "pref_version": 3,
+      "shown_sections": 1,
+      "web_resource_cache_update": "1289679884.902772"
+   },
+   "profile": {
+      "content_settings": {
+         "pref_version": 1
+      },
+      "exited_cleanly": true
+   },
+   "tabs": {
+      "use_vertical_tabs": false
+   }
+}

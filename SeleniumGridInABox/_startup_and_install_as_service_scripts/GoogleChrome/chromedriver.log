@@ -1,0 +1,8 @@
+[0.000][INFO]:      ChromeDriver 23.0.1240.0 C:\Users\VBox\Desktop\SeleniumGridInABox\browsers\GoogleChromeLatest\chromedriver.exe
+[0.961][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "javascriptEnabled": true,
+   "platform": "ANY",
+   "version": ""
+}
+

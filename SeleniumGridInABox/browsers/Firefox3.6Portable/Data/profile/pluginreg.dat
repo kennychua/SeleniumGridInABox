@@ -1,0 +1,23 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.11|$
+
+[PLUGINS]
+NPWPF.dll|$
+c:\WINDOWS\Microsoft.NET\Framework\v3.5\Windows Presentation Foundation\NPWPF.dll|$
+3.5.30729.1|$
+1217338848000|1|5|$
+Windows Presentation Foundation (WPF) plug-in for Mozilla browsers|$
+Windows Presentation Foundation|$
+2
+0|application/x-ms-xbap|XAML Browser Application|xbap|$
+1|application/xaml+xml|XAML Document|xaml|$
+npnul32.dll|$
+C:\ContinuousIntegration\browsers\Firefox3.6Portable\App\firefox\plugins\npnul32.dll|$
+1.0.0.15|$
+1303341958000|1|5|$
+Default Plug-in|$
+Mozilla Default Plug-in|$
+1
+0|*|Mozilla Default Plug-in|*|$

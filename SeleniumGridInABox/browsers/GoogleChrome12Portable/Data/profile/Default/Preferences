@@ -1,0 +1,74 @@
+{
+   "browser": {
+      "window_placement": {
+         "bottom": 728,
+         "left": 10,
+         "maximized": false,
+         "right": 1060,
+         "top": 10,
+         "work_area_bottom": 738,
+         "work_area_left": 0,
+         "work_area_right": 1364,
+         "work_area_top": 0
+      }
+   },
+   "cloud_print": {
+      "email": ""
+   },
+   "countryid_at_install": 21843,
+   "default_search_provider": {
+      "enabled": true,
+      "encodings": "UTF-8",
+      "icon_url": "http://www.google.com/favicon.ico",
+      "id": "2",
+      "instant_url": "{google:baseURL}webhp?{google:RLZ}sourceid=chrome-instant&ie={inputEncoding}&ion=1{searchTerms}&nord=1",
+      "keyword": "google.com.au",
+      "name": "Google",
+      "prepopulate_id": "1",
+      "search_url": "{google:baseURL}search?{google:RLZ}{google:acceptedSuggestion}{google:originalQueryForSuggestion}sourceid=chrome&ie={inputEncoding}&q={searchTerms}",
+      "suggest_url": "{google:baseSuggestURL}search?client=chrome&hl={language}&q={searchTerms}"
+   },
+   "dns_prefetching": {
+      "host_referral_list": [ 2, [ "https://secure-test.macquarie.com.au/", [ "https://secure-test.macquarie.com.au/", 5.575351163331506, "https://www-test.macquarie.com.au/", 3.392894622422135, "https://www.macquarie.com.au/", 3.7046741282663302 ] ], [ "https://www-test.macquarie.com.au/", [ "https://smetrics.macquarie.com.au/", 2.1457765990453503, "https://www-test.macquarie.com.au/", 6.198910175019899 ] ] ],
+      "startup_list": [ 1 ]
+   },
+   "download": {
+      "directory_upgrade": true,
+      "extensions_to_open": ""
+   },
+   "extensions": {
+      "autoupdate": {
+         "next_check": "12981101555496572"
+      },
+      "chrome_url_overrides": {
+         "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+      }
+   },
+   "google": {
+      "services": {
+         "username": ""
+      }
+   },
+   "homepage": "",
+   "homepage_is_newtabpage": true,
+   "ntp": {
+      "pref_version": 3,
+      "shown_sections": 64,
+      "webstore_last_promo_id": "1257606"
+   },
+   "plugins": {
+      "enabled_internal_pdf3": true
+   },
+   "profile": {
+      "content_settings": {
+         "pref_version": 1
+      },
+      "default_content_settings": {
+         "popups": 1
+      },
+      "exited_cleanly": true
+   },
+   "tabs": {
+      "use_vertical_tabs": false
+   }
+}

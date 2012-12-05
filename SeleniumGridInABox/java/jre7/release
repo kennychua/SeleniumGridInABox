@@ -1,0 +1,5 @@
+JAVA_VERSION="1.7.0"
+OS_NAME="Windows"
+OS_VERSION="5.1"
+OS_ARCH="i586"
+SOURCE=" .:d9c8fa0606fd corba:a5dced409c4b deploy:227639e3519d hotspot:da4aa289ac10 hotspot/src/closed:a6697050e2f3 hotspot/test/closed:34ee329e9cab install:80e93254c1e2 jaxp:ab4bbb93b383 jaxws:f3e42e044584 jdk:ffad06d70095 jdk/make/closed:88b6b418d78d jdk/src/closed:d9322eee9fae jdk/test/closed:1341123da19b langtools:1de4a0865a71 pubs:1e98a083ae51 sponsors:21ed7f63b7ab"

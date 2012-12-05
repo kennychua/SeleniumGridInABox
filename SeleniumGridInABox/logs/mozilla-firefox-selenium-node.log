@@ -1,0 +1,198 @@
+STATUS | wrapper  | 2012/12/02 04:03:13 | Service is running.  Stopping it...
+STATUS | wrapper  | 2012/12/02 04:03:17 | Selenium Node - Mozilla Firefox stopped.
+STATUS | wrapper  | 2012/12/02 04:03:17 | Selenium Node - Mozilla Firefox service removed.
+STATUS | wrapper  | 2012/12/02 04:03:19 | --> Wrapper Started as Console
+STATUS | wrapper  | 2012/12/02 04:03:19 | Java Service Wrapper Community Edition 32-bit 3.5.15
+STATUS | wrapper  | 2012/12/02 04:03:19 |   Copyright (C) 1999-2012 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2012/12/02 04:03:19 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2012/12/02 04:03:19 | 
+STATUS | wrapper  | 2012/12/02 04:03:20 | Launching a JVM...
+INFO   | jvm 1    | 2012/12/02 04:03:20 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2012/12/02 04:03:20 | Dec 02, 2012 4:03:20 AM org.openqa.grid.selenium.GridLauncher main
+INFO   | jvm 1    | 2012/12/02 04:03:20 | INFO: Launching a selenium grid node
+INFO   | jvm 1    | 2012/12/02 04:03:20 | adding browserName=firefox,maxInstances=3
+INFO   | jvm 1    | 2012/12/02 04:03:21 | 04:03:21.839 INFO - Java: Oracle Corporation 23.5-b02
+INFO   | jvm 1    | 2012/12/02 04:03:21 | 04:03:21.853 INFO - OS: Windows 7 6.1 x86
+INFO   | jvm 1    | 2012/12/02 04:03:21 | 04:03:21.853 INFO - v2.26.0, with Core v2.26.0. Built from revision 18041
+INFO   | jvm 1    | 2012/12/02 04:03:22 | 04:03:22.061 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4446/wd/hub
+INFO   | jvm 1    | 2012/12/02 04:03:22 | 04:03:22.061 INFO - Version Jetty/5.1.x
+INFO   | jvm 1    | 2012/12/02 04:03:22 | 04:03:22.061 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+INFO   | jvm 1    | 2012/12/02 04:03:22 | 04:03:22.061 INFO - Started HttpContext[/selenium-server,/selenium-server]
+INFO   | jvm 1    | 2012/12/02 04:03:22 | 04:03:22.061 INFO - Started HttpContext[/,/]
+INFO   | jvm 1    | 2012/12/02 04:03:22 | 04:03:22.075 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@44c9f6
+INFO   | jvm 1    | 2012/12/02 04:03:22 | 04:03:22.075 INFO - Started HttpContext[/wd,/wd]
+INFO   | jvm 1    | 2012/12/02 04:03:22 | 04:03:22.075 INFO - Started SocketListener on 0.0.0.0:4446
+INFO   | jvm 1    | 2012/12/02 04:03:22 | 04:03:22.075 INFO - Started org.openqa.jetty.jetty.Server@c3507d
+INFO   | jvm 1    | 2012/12/02 04:03:22 | 04:03:22.075 INFO - using the json request : {"class":"org.openqa.grid.common.RegistrationRequest","capabilities":[{"platform":"VISTA","browserName":"firefox","maxInstances":"3"}],"configuration":{"port":4446,"host":"10.0.2.15","hubHost":"localhost","registerCycle":5000,"hub":"http://localhost:4445/grid/register","url":"http://10.0.2.15:4446","remoteHost":"http://10.0.2.15:4446","register":true,"proxy":"org.openqa.grid.selenium.proxy.DefaultRemoteProxy","maxSession":5,"browser":"browserName=firefox,maxInstances=3","role":"webdriver","hubPort":4445}}
+INFO   | jvm 1    | 2012/12/02 04:03:22 | 04:03:22.075 INFO - starting auto register thread. Will try to register every 5000 ms.
+INFO   | jvm 1    | 2012/12/02 04:03:22 | 04:03:22.075 INFO - Registering the node to hub :http://localhost:4445/grid/register
+INFO   | jvm 1    | 2012/12/02 04:03:29 | 04:03:29.756 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@ced8c6 at URL: /status)
+INFO   | jvm 1    | 2012/12/02 04:03:29 | 04:03:29.756 INFO - Done: /status
+STATUS | wrapper  | 2012/12/02 04:03:42 | Selenium Node - Mozilla Firefox service installed.
+STATUS | wrapper  | 2012/12/03 19:42:20 | --> Wrapper Started as Service
+STATUS | wrapper  | 2012/12/03 19:42:20 | Java Service Wrapper Community Edition 32-bit 3.5.15
+STATUS | wrapper  | 2012/12/03 19:42:20 |   Copyright (C) 1999-2012 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2012/12/03 19:42:20 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2012/12/03 19:42:20 | 
+STATUS | wrapper  | 2012/12/03 19:42:22 | Launching a JVM...
+INFO   | jvm 1    | 2012/12/03 19:42:22 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2012/12/03 19:42:24 | Dec 03, 2012 7:42:23 PM org.openqa.grid.selenium.GridLauncher main
+INFO   | jvm 1    | 2012/12/03 19:42:24 | INFO: Launching a selenium grid node
+INFO   | jvm 1    | 2012/12/03 19:42:24 | adding browserName=firefox,maxInstances=3
+INFO   | jvm 1    | 2012/12/03 19:42:28 | 19:42:28.757 INFO - Java: Oracle Corporation 23.5-b02
+INFO   | jvm 1    | 2012/12/03 19:42:28 | 19:42:28.757 INFO - OS: Windows 7 6.1 x86
+INFO   | jvm 1    | 2012/12/03 19:42:29 | 19:42:28.995 INFO - v2.26.0, with Core v2.26.0. Built from revision 18041
+INFO   | jvm 1    | 2012/12/03 19:42:29 | 19:42:29.669 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4446/wd/hub
+INFO   | jvm 1    | 2012/12/03 19:42:29 | 19:42:29.669 INFO - Version Jetty/5.1.x
+INFO   | jvm 1    | 2012/12/03 19:42:29 | 19:42:29.679 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+INFO   | jvm 1    | 2012/12/03 19:42:29 | 19:42:29.679 INFO - Started HttpContext[/selenium-server,/selenium-server]
+INFO   | jvm 1    | 2012/12/03 19:42:29 | 19:42:29.679 INFO - Started HttpContext[/,/]
+INFO   | jvm 1    | 2012/12/03 19:42:29 | 19:42:29.689 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@8927c8
+INFO   | jvm 1    | 2012/12/03 19:42:29 | 19:42:29.689 INFO - Started HttpContext[/wd,/wd]
+INFO   | jvm 1    | 2012/12/03 19:42:30 | 19:42:30.125 INFO - Started SocketListener on 0.0.0.0:4446
+INFO   | jvm 1    | 2012/12/03 19:42:30 | 19:42:30.125 INFO - Started org.openqa.jetty.jetty.Server@635f9e
+INFO   | jvm 1    | 2012/12/03 19:42:30 | 19:42:30.125 INFO - using the json request : {"class":"org.openqa.grid.common.RegistrationRequest","capabilities":[{"platform":"VISTA","browserName":"firefox","maxInstances":"3"}],"configuration":{"port":4446,"host":"10.0.2.15","hubHost":"localhost","registerCycle":5000,"hub":"http://localhost:4445/grid/register","url":"http://10.0.2.15:4446","remoteHost":"http://10.0.2.15:4446","register":true,"proxy":"org.openqa.grid.selenium.proxy.DefaultRemoteProxy","maxSession":5,"browser":"browserName=firefox,maxInstances=3","role":"webdriver","hubPort":4445}}
+INFO   | jvm 1    | 2012/12/03 19:42:30 | 19:42:30.393 INFO - starting auto register thread. Will try to register every 5000 ms.
+INFO   | jvm 1    | 2012/12/03 19:42:30 | 19:42:30.403 INFO - Registering the node to hub :http://localhost:4445/grid/register
+INFO   | jvm 1    | 2012/12/03 19:42:36 | 19:42:36.639 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@129617b at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:42:36 | 19:42:36.718 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:42:41 | 19:42:41.336 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@12cc460 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:42:41 | 19:42:41.336 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:42:45 | 19:42:45.832 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@ee336f at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:42:45 | 19:42:45.832 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:42:50 | 19:42:50.642 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@1e94776 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:42:50 | 19:42:50.642 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:42:55 | 19:42:55.559 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@2a4591 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:42:55 | 19:42:55.559 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:43:00 | 19:43:00.854 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@85c106 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:43:00 | 19:43:00.854 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:43:06 | 19:43:06.264 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@1bb4422 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:43:06 | 19:43:06.264 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:43:11 | 19:43:11.372 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@1e70b3e at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:43:11 | 19:43:11.372 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:43:16 | 19:43:16.390 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@10385f1 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:43:16 | 19:43:16.390 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:43:21 | 19:43:21.407 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@118dcec at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:43:21 | 19:43:21.407 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:43:26 | 19:43:26.424 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@90da40 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:43:26 | 19:43:26.424 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:43:31 | 19:43:31.442 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@117a5b at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:43:31 | 19:43:31.442 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:43:36 | 19:43:36.457 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@9ec9cd at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:43:36 | 19:43:36.457 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:43:41 | 19:43:41.474 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@12036a1 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:43:41 | 19:43:41.474 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:43:46 | 19:43:46.491 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@154a2e6 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:43:46 | 19:43:46.491 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:43:51 | 19:43:51.509 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@8610c4 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:43:51 | 19:43:51.509 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:43:56 | 19:43:56.526 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@1ac14dd at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:43:56 | 19:43:56.526 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:44:01 | 19:44:01.543 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@ff8e3a at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:44:01 | 19:44:01.543 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:44:06 | 19:44:06.560 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@11a82fd at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:44:06 | 19:44:06.560 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:44:11 | 19:44:11.577 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@e6de16 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:44:11 | 19:44:11.577 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:44:16 | 19:44:16.595 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@120be93 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:44:16 | 19:44:16.595 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:44:21 | 19:44:21.612 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@1596e13 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:44:21 | 19:44:21.612 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:44:26 | 19:44:26.629 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@157bbd4 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:44:26 | 19:44:26.629 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:44:31 | 19:44:31.646 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@1bfd316 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:44:31 | 19:44:31.646 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:44:36 | 19:44:36.663 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@3d2a58 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:44:36 | 19:44:36.663 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:44:41 | 19:44:41.681 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@16651b7 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:44:41 | 19:44:41.681 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:44:46 | 19:44:46.698 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@1f4c39d at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:44:46 | 19:44:46.698 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:44:51 | 19:44:51.715 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@1c44935 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:44:51 | 19:44:51.715 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:44:56 | 19:44:56.732 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@fc912 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:44:56 | 19:44:56.732 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:45:01 | 19:45:01.750 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@c86119 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:45:01 | 19:45:01.750 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:45:06 | 19:45:06.767 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@136b690 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:45:06 | 19:45:06.767 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:45:11 | 19:45:11.784 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@d279e2 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:45:11 | 19:45:11.784 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:45:16 | 19:45:16.801 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@141bbea at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:45:16 | 19:45:16.801 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:45:21 | 19:45:21.818 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@1dcb677 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:45:21 | 19:45:21.818 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:45:26 | 19:45:26.836 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@1c9a682 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:45:26 | 19:45:26.836 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:45:31 | 19:45:31.854 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@1839755 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:45:31 | 19:45:31.854 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:45:36 | 19:45:36.871 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@193dfb0 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:45:36 | 19:45:36.871 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:45:42 | 19:45:42.318 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@17b8705 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:45:42 | 19:45:42.318 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:45:47 | 19:45:47.838 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@140c349 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:45:47 | 19:45:47.838 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:45:52 | 19:45:52.881 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@13d346d at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:45:52 | 19:45:52.881 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:45:57 | 19:45:57.848 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@13336f at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:45:57 | 19:45:57.848 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:46:02 | 19:46:02.385 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@1af431c at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:46:02 | 19:46:02.385 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:46:06 | 19:46:06.855 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@1564f4 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:46:06 | 19:46:06.855 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:46:11 | 19:46:11.716 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@ac3205 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:46:11 | 19:46:11.716 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:46:16 | 19:46:16.635 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@7ee9eb at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:46:16 | 19:46:16.635 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:46:21 | 19:46:21.985 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@130e79d at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:46:21 | 19:46:21.985 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:46:27 | 19:46:27.394 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@b35c53 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:46:27 | 19:46:27.394 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:46:32 | 19:46:32.325 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@19c7028 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:46:32 | 19:46:32.325 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:46:37 | 19:46:37.193 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@103c2db at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:46:37 | 19:46:37.193 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:46:42 | 19:46:42.194 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@c90b69 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:46:42 | 19:46:42.194 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:46:47 | 19:46:47.212 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@1257dba at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:46:47 | 19:46:47.212 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:46:52 | 19:46:52.230 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@10ac73b at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:46:52 | 19:46:52.230 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:46:57 | 19:46:57.247 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@11bbdbb at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:46:57 | 19:46:57.247 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:47:02 | 19:47:02.257 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@1fc049e at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:47:02 | 19:47:02.257 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:47:07 | 19:47:07.275 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@1f34dad at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:47:07 | 19:47:07.275 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:47:12 | 19:47:12.293 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@330f22 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:47:12 | 19:47:12.293 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:47:17 | 19:47:17.310 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@177f5b2 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:47:17 | 19:47:17.310 INFO - Done: /status
+INFO   | jvm 1    | 2012/12/03 19:47:22 | 19:47:22.327 INFO - Executing: org.openqa.selenium.remote.server.handler.Status@17ae6a5 at URL: /status)
+INFO   | jvm 1    | 2012/12/03 19:47:22 | 19:47:22.327 INFO - Done: /status
+STATUS | wrapper  | 2012/12/03 19:48:21 | --> Wrapper Started as Service
+STATUS | wrapper  | 2012/12/03 19:48:21 | Java Service Wrapper Community Edition 32-bit 3.5.15
+STATUS | wrapper  | 2012/12/03 19:48:21 |   Copyright (C) 1999-2012 Tanuki Software, Ltd. All Rights Reserved.
+STATUS | wrapper  | 2012/12/03 19:48:21 |     http://wrapper.tanukisoftware.com
+STATUS | wrapper  | 2012/12/03 19:48:21 | 
+STATUS | wrapper  | 2012/12/03 19:48:23 | Launching a JVM...
+INFO   | jvm 1    | 2012/12/03 19:48:24 | WrapperManager: Initializing...
+INFO   | jvm 1    | 2012/12/03 19:48:24 | Dec 03, 2012 7:48:24 PM org.openqa.grid.selenium.GridLauncher main
+INFO   | jvm 1    | 2012/12/03 19:48:24 | INFO: Launching a selenium grid node
+INFO   | jvm 1    | 2012/12/03 19:48:24 | adding browserName=firefox,maxInstances=3
+INFO   | jvm 1    | 2012/12/03 19:48:25 | WrapperSimpleApp: 
+INFO   | jvm 1    | 2012/12/03 19:48:25 | WrapperSimpleApp Error: Encountered an error running main:
+INFO   | jvm 1    | 2012/12/03 19:48:25 | WrapperSimpleApp Error: org.openqa.selenium.WebDriverException: Could not find a non-loopback ip4 address for this machine
+INFO   | jvm 1    | 2012/12/03 19:48:25 | Build info: version: '2.26.0', revision: '18041', time: '2012-11-01 19:33:38'
+INFO   | jvm 1    | 2012/12/03 19:48:25 | System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_09'
+INFO   | jvm 1    | 2012/12/03 19:48:25 | Driver info: driver.version: unknown
+INFO   | jvm 1    | 2012/12/03 19:48:25 | WrapperSimpleApp Error: 	at org.openqa.selenium.net.NetworkUtils.getIp4NonLoopbackAddressOfThisMachine(NetworkUtils.java:69)
+INFO   | jvm 1    | 2012/12/03 19:48:25 | WrapperSimpleApp Error: 	at org.openqa.grid.common.RegistrationRequest.build(RegistrationRequest.java:394)
+INFO   | jvm 1    | 2012/12/03 19:48:25 | WrapperSimpleApp Error: 	at org.openqa.grid.selenium.GridLauncher.main(GridLauncher.java:70)
+INFO   | jvm 1    | 2012/12/03 19:48:26 | WrapperSimpleApp Error: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2012/12/03 19:48:26 | WrapperSimpleApp Error: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+INFO   | jvm 1    | 2012/12/03 19:48:26 | WrapperSimpleApp Error: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+INFO   | jvm 1    | 2012/12/03 19:48:26 | WrapperSimpleApp Error: 	at java.lang.reflect.Method.invoke(Unknown Source)
+INFO   | jvm 1    | 2012/12/03 19:48:26 | WrapperSimpleApp Error: 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:290)
+INFO   | jvm 1    | 2012/12/03 19:48:26 | WrapperSimpleApp Error: 	at java.lang.Thread.run(Unknown Source)
+STATUS | wrapper  | 2012/12/03 19:48:27 | <-- Wrapper Stopped
