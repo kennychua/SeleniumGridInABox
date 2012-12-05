@@ -28,6 +28,7 @@ The folder structure should look like this
 XXXIMAGE
 3. Set the following environment variables to configure _Selenium Grid In A Box_. 
 	- Note that these variables tell _Selenium Grid In A Box_ the included Java version as well as the included browsers. This will be handy if you want to upgrade individual components. See later 'How Do I' section in documentation
+
 <table>
   <tr>
     <th>Environment Variable</th>
