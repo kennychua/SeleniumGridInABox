@@ -29,7 +29,6 @@ XXXIMAGE
 3. Set the following environment variables to configure _Selenium Grid In A Box_
 <table>
   <tr>
-    <th></th>
     <th>Environment Variable</th>
     <th>Example</th>
     <th>What it's for</th>	
