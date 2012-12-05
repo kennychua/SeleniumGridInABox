@@ -27,10 +27,8 @@ How do I set up Selenium Grid In A Box?
 	`C:\SeleniumGridInABox`.
 The folder structure should look like this.
 ![alt text](http://kennychua.net/wp-content/uploads/2012/12/sgib_unpacked_folder_structure.png "Unpacked folder structure")
-
 3. Set the following environment variables to configure _Selenium Grid In A Box_. 
 	- Note that these variables tell _Selenium Grid In A Box_ the included Java version as well as the included browsers. This will be handy if you want to upgrade individual components. See later 'How Do I' section in documentation.
-
 <table>
   <tr>
     <th>Environment Variable</th>
@@ -54,12 +52,13 @@ The folder structure should look like this.
   </tr>
 </table>
 ![alt text](http://kennychua.net/wp-content/uploads/2012/12/sgib_environment_variables.png "Example environment variables")
-
 4. Run the following scripts in install each component as a Windows Service
 	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\SeleniumHub\InstallSeleniumHubService-NT.bat`
-	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\GoogleChrome\GoogleChromeSeleniumNodeService.bat`
+	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\GoogleChrome\InstallGoogleChromeSeleniumNodeService-NT.bat`
 	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\MozillaFirefox\InstallFirefoxSeleniumNodeService-NT.bat`
 	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\InternetExplorer\InstallInternetExplorerSeleniumNodeService-NT.bat`
+5. XXX services.msc screenshot. Your Selenium Grid is now installed! Start the all the Selenium Grid In A Box services and you've got a Grid running.
+
 
 How do I use Selenium Grid In A Box in my Selenium tests?
 ------------------------------------------------------------
@@ -70,7 +69,7 @@ I'll strive to keep all the components up-to-date with the versions known and te
 #### Java
 Simply point the `SEL_GRID_IN_A_BOX_JAVA_HOME` environment variable to your desired JAVA_HOME
 #### Selenium Jar
-Once you have obtained the latest Selenium standalone jar from [here](http://code.google.com/p/selenium/downloads/list), place it in `C:\SeleniumGridInABox\selenium_grid_jars`. Then symlink `C:\SeleniumGridInABox\selenium_grid_jars\selenium-server-standalone-latest.jar` to it. This is how to do that in a command prompt:
+Once you have obtained the latest Selenium standalone jar from [here](http://code.google.com/p/selenium/downloads/list), place it in `C:\SeleniumGridInABox\selenium_grid_jars`. Then symlink `C:\SeleniumGridInABox\selenium_grid_jars\selenium-server-standalone-latest.jar` to it. This is h	ow to do that in a command prompt:
 `mklink C:\SeleniumGridInABox\selenium_grid_jars\selenium-server-standalone-latest.jar C:\SeleniumGridInABox\selenium_grid_jars\selenium-server-standalone-2.25.0.jar`
 #### Chrome
 Simply point the `SEL_GRID_IN_A_BOX_CHROME_PATH` environment variable to the path containing your Chrome executable. This directory should also have chromedriver.exe as Selenium needs this to drive Chrome.
