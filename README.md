@@ -42,14 +42,17 @@ XXXIMAGE
   <tr>
     <td>SEL_GRID_IN_A_BOX_JAVA_HOME</td>
     <td>C:\Users\VBox\Desktop\SeleniumGridInABox\java\jre7</td>
+    <td>XXX</td>
   </tr>
   <tr>
     <td>SEL_GRID_IN_A_BOX_CHROME_PATH</td>
     <td>C:\Users\VBox\Desktop\SeleniumGridInABox\browsers\GoogleChrome23Portable\App\Chrome-bin</td>
+    <td>XXX</td>
   </tr>
   <tr>
     <td>SEL_GRID_IN_A_BOX_FFOX_PATH</td>
     <td>C:\Users\VBox\Desktop\SeleniumGridInABox\browsers\Firefox16.0.2Portable\App\Firefox</td>
+    <td>XXX</td>
   </tr>
 </table>
 -xxx screenshot of system properties
