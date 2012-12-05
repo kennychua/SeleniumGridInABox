@@ -64,13 +64,22 @@ The folder structure should look like this.
 How do I use Selenium Grid In A Box in my Selenium tests?
 ------------------------------------------------------------
 
-How Do I …
-- update Java
-- update Selenium jar
-- update Chrome
-- update firefox
+How Do I Update …
+------------------------------------------------------------
+I'll strive to keep all the components up-to-date with the versions known and tested to work with each other, but if you decide to change things up
+#### Java
+Simply point the `SEL_GRID_IN_A_BOX_JAVA_HOME` environment variable to your desired JAVA_HOME
+#### Selenium Jar
+Once you have obtained the latest Selenium standalone jar from [here](http://code.google.com/p/selenium/downloads/list), place it in `C:\SeleniumGridInABox\selenium_grid_jars`. Then symlink `C:\SeleniumGridInABox\selenium_grid_jars\selenium-server-standalone-latest.jar` to it.
+`mklink C:\SeleniumGridInABox\selenium_grid_jars\selenium-server-standalone-latest.jar C:\SeleniumGridInABox\selenium_grid_jars\selenium-server-standalone-2.25.0.jar`
+#### Chrome
+Simply point the `SEL_GRID_IN_A_BOX_CHROME_PATH` environment variable to the path containing your Chrome executable. This directory should also have chromedriver.exe as Selenium needs this to drive Chrome.
+#### Firefox
+Simply point the `SEL_GRID_IN_A_BOX_FFOX_PATH` environment variable to the path containing your Chrome executable. 
+
 
 Notes
+------
 -browsers do up update automatically. This is intentional to preserve the consistency of tests
 - how to uninstall service?
 - how to view logs
