@@ -66,7 +66,7 @@ XXX
 
 How Do I Update …
 ------------------------------------------------------------
-I'll strive to keep all the components up-to-date with the versions known and tested to work with each other, but if you decide to change things up
+I'll strive to keep all the components up-to-date with the versions known and tested to work with each other, but if you decide to change things up, here's how…ß
 #### Java
 Simply point the `SEL_GRID_IN_A_BOX_JAVA_HOME` environment variable to your desired JAVA_HOME
 #### Selenium Jar
@@ -80,6 +80,10 @@ Simply point the `SEL_GRID_IN_A_BOX_FFOX_PATH` environment variable to the path 
 
 Notes
 ------
-- XXXbrowsers do up update automatically. This is intentional to preserve the consistency of tests
-- XXXhow to uninstall service?
-- XXXhow to view logs
+- The Chrome and Firefox browsers included are Portable versions. This means that they do not automatically update themselves when a new version is available, and are contained so that they only write to the disk location where they are run from. This is intentional to preserve the consistency of tests.
+- To uninstall the Windows Services, run the following scripts
+	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\SeleniumHub\UninstallSeleniumHubService-NT.bat`
+	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\GoogleChrome\UninstallGoogleChromeSeleniumNodeService-NT.bat`
+	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\MozillaFirefox\UninstallFirefoxSeleniumNodeService-NT.bat`
+	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\InternetExplorer\UninstallInternetExplorerSeleniumNodeService-
+- The logs location is relative to where you installed _Selenium Grid In A Box_. In the above example, logs can be found at `C:\SeleniumGridInABox\logs`
