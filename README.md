@@ -5,7 +5,7 @@ Selenium Grid In A Box - All you need for a simplified setup &amp; install of Se
 
 What is Selenium Grid In A Box?
 --------------------------------
-_Selenium Grid In a Box_ is designed to make the installation and setup of a Selenium Grid on a Windows machine a super-simple process.
+_Selenium Grid In a Box_ is designed to make the installation and setup of a __multi-browser__ Selenium Grid on a Windows machine a super-simple process.
 
 Rather than having to download & install the individual components for the Selenium Grid Hub, and each browsers manually, all you need to do is to copy the _Selenium Grid In A Box folder_ to your windows machine, set some environment variables for configuration, and away you go!
 
