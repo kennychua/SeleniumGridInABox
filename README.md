@@ -55,6 +55,9 @@ The folder structure should look like this.
     <td>C:\SeleniumGridInABox\browsers\IEDriverServer\32bit</td>
   </tr>
 </table>
+
+![alt text](http://kennychua.net/wp-content/uploads/2012/12/sgib_environment_variables.png "Example environment variables")
+
 4. Then, APPEND the following Environment Variables to your PATH Environment Variable
 <table>
   <tr>
@@ -67,7 +70,6 @@ The folder structure should look like this.
   </tr>
 </table>
 
-![alt text](http://kennychua.net/wp-content/uploads/2012/12/sgib_environment_variables.png "Example environment variables")
 5. Run the following scripts in install each component as a Windows Service
 	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\SeleniumHub\InstallSeleniumHubService-NT.bat`
 	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\GoogleChrome\InstallGoogleChromeSeleniumNodeService-NT.bat`
