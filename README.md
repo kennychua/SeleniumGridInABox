@@ -50,14 +50,30 @@ The folder structure should look like this.
     <td>SEL_GRID_IN_A_BOX_FFOX_PATH</td>
     <td>C:\SeleniumGridInABox\browsers\Firefox16.0.2Portable\App\Firefox</td>
   </tr>
+  <tr>
+    <td>SEL_GRID_IN_A_BOX_IEDRIVER_PATH</td>
+    <td>C:\SeleniumGridInABox\browsers\IEDriverServer\32bit</td>
+  </tr>
 </table>
+4. Then, APPEND the following Environment Variables to your PATH Environment Variable
+<table>
+  <tr>
+    <th>Environment Variable</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td>PATH</td>
+    <td>…existing values…;%SEL_GRID_IN_A_BOX_CHROME_PATH%;%SEL_GRID_IN_A_BOX_FFOX_PATH%;%SEL_GRID_IN_A_BOX_IEDRIVER_PATH%</td>
+  </tr>
+</table>
+
 ![alt text](http://kennychua.net/wp-content/uploads/2012/12/sgib_environment_variables.png "Example environment variables")
-4. Run the following scripts in install each component as a Windows Service
+5. Run the following scripts in install each component as a Windows Service
 	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\SeleniumHub\InstallSeleniumHubService-NT.bat`
 	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\GoogleChrome\InstallGoogleChromeSeleniumNodeService-NT.bat`
 	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\MozillaFirefox\InstallFirefoxSeleniumNodeService-NT.bat`
 	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\InternetExplorer\InstallInternetExplorerSeleniumNodeService-NT.bat`
-5. Your Selenium Grid is now installed! Start the all the Selenium Grid In A Box services and you've got a Grid running.
+6. Your Selenium Grid is now installed! Start the all the Selenium Grid In A Box services and you've got a Grid running.
 ![alt text](http://kennychua.net/wp-content/uploads/2012/12/sgib_services.png "Selenium In A Box services")
 
 How do I use Selenium Grid In A Box in my Selenium tests?
