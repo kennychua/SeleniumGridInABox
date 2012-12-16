@@ -29,6 +29,7 @@ The folder structure should look like this.
 ![alt text](http://kennychua.net/wp-content/uploads/2012/12/sgib_unpacked_folder_structure.png "Unpacked folder structure")
 3. Set the following environment variables to configure _Selenium Grid In A Box_. 
 	- Note that these variables tell _Selenium Grid In A Box_ the included Java version as well as the included browsers. This will be handy if you want to upgrade individual components. See later 'How Do I' section in documentation.
+	- You may change the value of the variable _SEL_GRID_IN_A_BOX_IEDRIVER_PATH_ to use either 32bit or 64bit to match your machine
 <table>
   <tr>
     <th>Environment Variable</th>
@@ -55,7 +56,6 @@ The folder structure should look like this.
     <td>C:\SeleniumGridInABox\browsers\IEDriverServer\32bit</td>
   </tr>
 </table>
-
 ![alt text](http://kennychua.net/wp-content/uploads/2012/12/sgib_environment_variables.png "Example environment variables")
 
 4. Then, APPEND the following Environment Variables to your PATH Environment Variable
