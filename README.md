@@ -115,3 +115,5 @@ Notes
 	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\MozillaFirefox\UninstallFirefoxSeleniumNodeService-NT.bat`
 	- `C:\SeleniumGridInABox\_startup_and_install_as_service_scripts\InternetExplorer\UninstallInternetExplorerSeleniumNodeService-
 - The logs location is relative to where you installed _Selenium Grid In A Box_. In the above example, logs can be found at `C:\SeleniumGridInABox\logs`
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/3badfc38c03b7a13375549935b6c27b2 "githalytics.com")](http://githalytics.com/kennychua/SeleniumGridInABox)
