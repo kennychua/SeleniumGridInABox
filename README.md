@@ -1,7 +1,7 @@
 SeleniumGridInABox
 ==================
 
-Selenium Grid In A Box - All you need for a simplified setup &amp; install of Selenium Grid
+Selenium Grid In A Box - All you need for a simplified setup &amp; install of Selenium Grid with Google Chrome, Mozilla Firefox and Internet Explorer.
 
 What is Selenium Grid In A Box?
 --------------------------------
@@ -117,3 +117,9 @@ Notes
 - The logs location is relative to where you installed _Selenium Grid In A Box_. In the above example, logs can be found at `C:\SeleniumGridInABox\logs`
 
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/3badfc38c03b7a13375549935b6c27b2 "githalytics.com")](http://githalytics.com/kennychua/SeleniumGridInABox)
+
+FAQ
+------
+#### Will this work when running as a Windows Service on Windows Vista or Windows Server 2008 / Session 0 isolation ?
+Absolutely! When running as services, the install scripts have been written so that it spawns browser processes not in the active user's foreground session. Instead, it sends the spawned browsers to Session 0 where they are safe from interfered with by a users
+Read more about Session 0 isolation, and how to access Session 0 here : http://www.coretechnologies.com/WindowsServices/FAQ.html#
