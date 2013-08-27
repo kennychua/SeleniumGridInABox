@@ -123,3 +123,7 @@ FAQ
 #### Will this work when running as a Windows Service on Windows Vista or Windows Server 2008 / Session 0 isolation ?
 Absolutely! When running as services, the install scripts have been written so that it spawns browser processes not in the active user's foreground session. Instead, it sends the spawned browsers to Session 0 where they are safe from interfered with by a users
 Read more about Session 0 isolation, and how to access Session 0 here : http://www.coretechnologies.com/WindowsServices/FAQ.html#
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kennychua/seleniumgridinabox/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
