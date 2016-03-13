@@ -1,3 +1,5 @@
+Note : This project should be considered defunct. The ideal way of spinning Selenium Grid is to use Docker. See https://github.com/SeleniumHQ/docker-selenium
+
 SeleniumGridInABox
 ==================
 
